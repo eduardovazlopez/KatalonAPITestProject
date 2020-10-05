@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UserAPI_TS" time="5.373" tests="3" failures="0" errors="0">
+   <testsuite name="UserAPI_TS" tests="3" failures="0" errors="0" time="5.373" timestamp="2020-10-04 17:30:57" hostname="Eduardo - DESKTOP-89C1UQG" id="Test Suites/UserAPI_TS/UserAPI_TS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\FizzBuzz\\KatalonAPITestProject\\Reqres API Test\\Reports\\20201004_173055\\UserAPI_TS\\UserAPI_TS\\20201004_173055"/>
+         <property name="logFiles" value="D:\\FizzBuzz\\KatalonAPITestProject\\Reqres API Test\\Reports\\20201004_173055\\UserAPI_TS\\UserAPI_TS\\20201004_173055\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Eduardo - DESKTOP-89C1UQG"/>
+         <property name="hostAddress" value="192.168.43.149"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+      </properties>
+      <testcase name="Test Cases/UserAPITest/GetSingleUserTest" time="2.526" classname="Test Cases/UserAPITest/GetSingleUserTest" status="PASSED">
+         <system-out><![CDATA[2020-10-04 17:30:58 - [TEST_CASE][PASSED] - Test Cases/UserAPITest/GetSingleUserTest: Test Cases/UserAPITest/GetSingleUserTest
+
+2020-10-04 17:30:58 - [TEST_STEP][PASSED] - result = sendRequest(findTestObject("UserAPITest/GetSingleUser")): Send request successfully
+
+2020-10-04 17:31:00 - [MESSAGE][INFO] - HAR: D:\FizzBuzz\KatalonAPITestProject\Reqres API Test\Reports\20201004_173055\UserAPI_TS\UserAPI_TS\20201004_173055\requests\main\0.har
+
+2020-10-04 17:31:00 - [MESSAGE][PASSED] - Send request successfully
+
+2020-10-04 17:31:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(result, 200): Verify response status code successfully
+
+2020-10-04 17:31:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-10-04 17:31:00 - [TEST_STEP][PASSED] - verifyElementPropertyValue(result, "data.email", "janet.weaver@reqres.in"): Verify element property value successfully
+
+2020-10-04 17:31:00 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserAPITest/UserNotFoundTest" time="1.248" classname="Test Cases/UserAPITest/UserNotFoundTest" status="PASSED">
+         <system-out><![CDATA[2020-10-04 17:31:00 - [TEST_CASE][PASSED] - Test Cases/UserAPITest/UserNotFoundTest: Test Cases/UserAPITest/UserNotFoundTest
+
+2020-10-04 17:31:00 - [TEST_STEP][PASSED] - result = sendRequest(findTestObject("UserAPITest/UserNotFoundTest")): Send request successfully
+
+2020-10-04 17:31:01 - [MESSAGE][INFO] - HAR: D:\FizzBuzz\KatalonAPITestProject\Reqres API Test\Reports\20201004_173055\UserAPI_TS\UserAPI_TS\20201004_173055\requests\main\1.har
+
+2020-10-04 17:31:01 - [MESSAGE][PASSED] - Send request successfully
+
+2020-10-04 17:31:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(result, 404): Verify response status code successfully
+
+2020-10-04 17:31:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserAPITest/CreateOneUserTest" time="1.258" classname="Test Cases/UserAPITest/CreateOneUserTest" status="PASSED">
+         <system-out><![CDATA[2020-10-04 17:31:01 - [TEST_CASE][PASSED] - Test Cases/UserAPITest/CreateOneUserTest: Test Cases/UserAPITest/CreateOneUserTest
+
+2020-10-04 17:31:01 - [TEST_STEP][PASSED] - result = sendRequest(findTestObject("UserAPITest/CreateOneUser")): Send request successfully
+
+2020-10-04 17:31:03 - [MESSAGE][INFO] - HAR: D:\FizzBuzz\KatalonAPITestProject\Reqres API Test\Reports\20201004_173055\UserAPI_TS\UserAPI_TS\20201004_173055\requests\main\2.har
+
+2020-10-04 17:31:03 - [MESSAGE][PASSED] - Send request successfully
+
+2020-10-04 17:31:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(result, 201): Verify response status code successfully
+
+2020-10-04 17:31:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-10-04 17:31:03 - [TEST_STEP][PASSED] - verifyElementPropertyValue(result, "name", "morpheus"): Verify element property value successfully
+
+2020-10-04 17:31:03 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-10-04 17:31:03 - [TEST_STEP][PASSED] - verifyElementPropertyValue(result, "job", "leader"): Verify element property value successfully
+
+2020-10-04 17:31:03 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-04 17:30:57 - [TEST_SUITE][PASSED] - UserAPI_TS: Test Cases/UserAPITest/CreateOneUserTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
